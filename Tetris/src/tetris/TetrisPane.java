@@ -247,10 +247,10 @@ public class TetrisPane extends JPanel {
 		public IShaped() {
 			cells = new Cell[4];
 			
-			cells[1] = new Cell(3, 0, Cell.COLOR_CYAN);
-			cells[0] = new Cell(4, 0, Cell.COLOR_CYAN);
-			cells[2] = new Cell(5, 0, Cell.COLOR_CYAN);
-			cells[3] = new Cell(6, 0, Cell.COLOR_CYAN);
+			cells[1] = new Cell(3, 0, Color.cyan);
+			cells[0] = new Cell(4, 0, Color.cyan);
+			cells[2] = new Cell(5, 0, Color.cyan);
+			cells[3] = new Cell(6, 0, Color.cyan);
 			
 			/* 设置旋转轴和要旋转的格子 */
 			setAxis();
@@ -271,10 +271,10 @@ public class TetrisPane extends JPanel {
 		public SShaped() {
 			cells = new Cell[4];
 			
-			cells[0] = new Cell(4, 0, Cell.COLOR_BLUE);
-			cells[1] = new Cell(5, 0, Cell.COLOR_BLUE);
-			cells[2] = new Cell(3, 1, Cell.COLOR_BLUE);
-			cells[3] = new Cell(4, 1, Cell.COLOR_BLUE);
+			cells[0] = new Cell(4, 0, Color.blue);
+			cells[1] = new Cell(5, 0, Color.blue);
+			cells[2] = new Cell(3, 1, Color.blue);
+			cells[3] = new Cell(4, 1, Color.blue);
 			
 			/* 设置旋转轴和要旋转的格子 */
 			setAxis();
@@ -295,10 +295,10 @@ public class TetrisPane extends JPanel {
 		public TShaped() {
 			cells = new Cell[4];
 			
-			cells[1] = new Cell(3, 0, Cell.COLOR_GREEN);
-			cells[0] = new Cell(4, 0, Cell.COLOR_GREEN);
-			cells[2] = new Cell(5, 0, Cell.COLOR_GREEN);
-			cells[3] = new Cell(4, 1, Cell.COLOR_GREEN);
+			cells[1] = new Cell(3, 0, Color.green);
+			cells[0] = new Cell(4, 0, Color.green);
+			cells[2] = new Cell(5, 0, Color.green);
+			cells[3] = new Cell(4, 1, Color.green);
 			
 			/* 设置旋转轴和要旋转的格子 */
 			setAxis();
@@ -319,10 +319,10 @@ public class TetrisPane extends JPanel {
 		public ZShaped() {
 			cells = new Cell[4];
 			
-			cells[1] = new Cell(3, 0, Cell.COLOR_ORANGE);
-			cells[2] = new Cell(4, 0, Cell.COLOR_ORANGE);
-			cells[0] = new Cell(4, 1, Cell.COLOR_ORANGE);
-			cells[3] = new Cell(5, 1, Cell.COLOR_ORANGE);
+			cells[1] = new Cell(3, 0, Color.orange);
+			cells[2] = new Cell(4, 0, Color.orange);
+			cells[0] = new Cell(4, 1, Color.orange);
+			cells[3] = new Cell(5, 1, Color.orange);
 			
 			/* 设置旋转轴和要旋转的格子 */
 			setAxis();
@@ -343,10 +343,10 @@ public class TetrisPane extends JPanel {
 		public LShaped() {
 			cells = new Cell[4];
 			
-			cells[1] = new Cell(3, 0, Cell.COLOR_PINK);
-			cells[0] = new Cell(4, 0, Cell.COLOR_PINK);
-			cells[2] = new Cell(5, 0, Cell.COLOR_PINK);
-			cells[3] = new Cell(3, 1, Cell.COLOR_PINK);
+			cells[1] = new Cell(3, 0, Color.pink);
+			cells[0] = new Cell(4, 0, Color.pink);
+			cells[2] = new Cell(5, 0, Color.pink);
+			cells[3] = new Cell(3, 1, Color.pink);
 			
 			/* 设置旋转轴和要旋转的格子 */
 			setAxis();
@@ -367,10 +367,10 @@ public class TetrisPane extends JPanel {
 		public OShaped() {
 			cells = new Cell[4];
 			
-			cells[0] = new Cell(4, 0, Cell.COLOR_RED);
-			cells[1] = new Cell(5, 0, Cell.COLOR_RED);
-			cells[2] = new Cell(4, 1, Cell.COLOR_RED);
-			cells[3] = new Cell(5, 1, Cell.COLOR_RED);
+			cells[0] = new Cell(4, 0, Color.red);
+			cells[1] = new Cell(5, 0, Color.red);
+			cells[2] = new Cell(4, 1, Color.red);
+			cells[3] = new Cell(5, 1, Color.red);
 			
 			/* 设置旋转轴和要旋转的格子 */
 			setAxis();
@@ -391,10 +391,10 @@ public class TetrisPane extends JPanel {
 		public JShaped() {
 			cells = new Cell[4];
 			
-			cells[1] = new Cell(3, 0, Cell.COLOR_YELLOW);
-			cells[0] = new Cell(4, 0, Cell.COLOR_YELLOW);
-			cells[2] = new Cell(5, 0, Cell.COLOR_YELLOW);
-			cells[3] = new Cell(5, 1, Cell.COLOR_YELLOW);
+			cells[1] = new Cell(3, 0, Color.yellow);
+			cells[0] = new Cell(4, 0, Color.yellow);
+			cells[2] = new Cell(5, 0, Color.yellow);
+			cells[3] = new Cell(5, 1, Color.yellow);
 			
 			/* 设置旋转轴和要旋转的格子 */
 			setAxis();
