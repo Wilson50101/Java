@@ -4,22 +4,23 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 /**
- * 网格类
+ * 呼摸
  * @author Leslie Leung
  */
 public class Cell {
-	public static final int CELL_SIZE = 25;		//一个网格的大小
+	//呼
+	public static final int CELL_SIZE = 25;	
 
-	/* 格子的所有颜色  */
-	private Color nowcolor;
-	private int x;	//横坐标
-	private int y;	//纵坐标
+	
+	private Color nowcolor;//肅︹
+	private int x;	//x畒夹
+	private int y;	//y畒夹
 
 	/**
-	 * 构造方法
-	 * @param x 横坐标
-	 * @param y 纵坐标
-	 * @param style 格子的样式，通过颜色来指定
+	 * 篶
+	 * @param x x(绢)畒夹
+	 * @param y y(羇)畒夹
+	 * @param setcolor 稱璶砞Θ肅︹
 	 */
 	public Cell(int x, int y, Color setcolor) {
 		setNowcolor(setcolor);
@@ -28,52 +29,58 @@ public class Cell {
 	}
 
 	/**
-	 * 设置该格子的横坐标
-	 * @param newX 新的横坐标
+	 * 砞﹚赣x畒夹
+	 * @param newX 穝x畒夹
 	 */
 	public void setX(int newX) {
 		x = newX;
 	}
 
 	/**
-	 * 设置该格子的纵坐标
-	 * @param newY 新的纵坐标
+	 * 砞﹚赣y畒夹
+	 * @param newY 穝y畒夹
 	 */
 	public void setY(int newY) {
 		y = newY;
 	}
 
 	/**
-	 * 获取该Cell的横坐标
-	 * @return 横坐标
+	 * 眔赣cellx畒夹
+	 * @return x畒夹
 	 */
 	public int getX() {
 		return x;
 	}
 
 	/**
-	 * 获取该Cell的纵坐标
-	 * @return 纵坐标
+	 * 眔赣celly畒夹
+	 * @return y畒夹
 	 */
 	public int getY() {
 		return y;
 	}
 
 	/**
-	 * 绘图方法
-	 * @param g Graphics引用
+	 * 酶瓜よ猭
+	 * @param g Graphicsまノ
 	 */
 	public void paintCell(Graphics g) {
 		g.setColor(nowcolor);
 		g.fillRect(x * CELL_SIZE + 1, y * CELL_SIZE + 1, CELL_SIZE - 2, CELL_SIZE - 2);
 	}
-
+	/**
+	 * 眔赣cell肅︹
+	 * @return 肅︹
+	 */
 	public Color getNowcolor() {
 		return nowcolor;
 	}
-
-	public void setNowcolor(Color nowcolor) {
-		this.nowcolor = nowcolor;
+	/**
+	 * 砞﹚赣肅︹
+	 * @param newcolor 穝肅︹
+	 */	
+	public void setNowcolor(Color newcolor) {
+		this.nowcolor = newcolor;
 	}
 
 }

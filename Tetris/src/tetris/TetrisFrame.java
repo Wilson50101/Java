@@ -5,31 +5,30 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 /**
- * 框架类
+ * 琜摸
  * @author Leslie Leung
  */
 public class TetrisFrame extends JFrame {
-	private TetrisPane tp;	//俄罗斯方块主游戏场景类
-	private JLabel mention;		//游戏的提示信息
+	private TetrisPane tp;	//玐霉吹よ遏笴栏初春
+	private JLabel mention;	//笴栏矗ボ癟
 	
 	/**
-	 * 构造方法
+	 * 篶
 	 */
 	public TetrisFrame() {
-		setSize(550, 600);	//设置窗体大小
+		setSize(550, 600);				//砞﹚跌怠
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setLocationRelativeTo(null);	//设置窗体于屏幕中央
-		setTitle("Tetris");		//设置标题为Tetris
-		setResizable(false);		//不允许窗体缩放
-		setLayout(new FlowLayout());	//设置布局管理器
+		setLocationRelativeTo(null);	//砞﹚跌怠棵辊い丁
+		setTitle("Tetris");				//砞竚夹肈"Tetris"
+		setResizable(false);			//ぃす砛跌怠罽
+		setLayout(new FlowLayout());	//砞﹚皌竚
 		
-		tp = new TetrisPane();	//新建场景类对象
-		mention = new JLabel("按A键逆时针转，按D顺时针转，按方向键控制向左、向右和向下的运动，按空格键硬下落");
+		tp = new TetrisPane();			//穝初春ン
+		mention = new JLabel("A龄癴皐臂锣D抖皐臂锣よ龄北㎝笲笆龄钡辅┏");
+		add(mention);					//盢矗ボ癟睰琜
+		add(tp);						//盢笴栏初春狾睰琜い
 		
-		add(mention);		//把标签添加到主框架中
-		add(tp);		//把游戏主场景面板添加到主框架中
-		
-		/* 注册键盘事件 */
+		/*爹龄絃ㄆン*/
 		addKeyListener(tp.getInnerInstanceOfKeyControl());
 		tp.addKeyListener(tp.getInnerInstanceOfKeyControl());
 		
